@@ -296,8 +296,8 @@ img {
   background-color: #fff;
 }
 
-.team-item:nth-child(4n) {
-  margin-right: ;
+.team-item:last-child{
+  margin-right: 0;
 }
 
 .team-text {
@@ -326,11 +326,11 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 50px;        
 }
 
 .item-button {
   margin-right: 8px;
+  margin-bottom: 50px;
 }
 .item-button:last-child {
   margin-right: 0;
@@ -339,7 +339,6 @@ img {
 
 
 .button.secondary {
-  margin-right: 8px;
   color: var(--title-text-color);
   background-color: #f5f4fa;
   font-weight: 500;
