@@ -56,8 +56,6 @@ ul {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-
-
 }
 
 img {
@@ -171,7 +169,7 @@ img {
 
 /* Hero */
 .hero {
-  max width: 1600px;
+  max-width: 1600px;
   padding: 200px 0;
 
   background-color: #2f303a;
@@ -190,7 +188,6 @@ img {
 }
 
 .hero-button {
-
   background-color: var(--accent-color);
   color: var(--primary-white-color);
   cursor: pointer;
@@ -287,16 +284,17 @@ img {
   display: flex;
 }
 
-.team-item{
+.team-item {
   width: 270px;
   margin-right: 30px;
 
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background-color: #fff;
 }
 
-.team-item:last-child{
+.team-item:last-child {
   margin-right: 0;
 }
 
@@ -314,7 +312,6 @@ img {
   text-align: center;
 }
 .position {
-
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -326,8 +323,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-    margin-bottom: 50px;
-
+  margin-bottom: 50px;
 }
 
 .item-button {
@@ -336,8 +332,6 @@ img {
 .item-button:last-child {
   margin-right: 0;
 }
-
-
 
 .button.secondary {
   color: var(--title-text-color);
@@ -411,9 +405,10 @@ img {
 }
 
 .footer {
-padding: 60px 0;
-background-color: #2f303a;
-background-size: cover;}
+  padding: 60px 0;
+  background-color: #2f303a;
+  background-size: cover;
+}
 
 .logo-footer,
 .logo-accent {
@@ -443,18 +438,16 @@ background-size: cover;}
 
 .footer-cont-link {
   text-decoration: none;
-    color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-
 }
 
-
-/* основной цвет заголовков: #212121; */
-/* основной цвет текста : #757575; */
-/* белый : #FFFFFF */
+/* основний колір заголовків: #212121; */
+/* основний колір текста : #757575; */
+/* білий : #FFFFFF */
 /* акцент : #2196F3 */
 /* фон футера : #2F303A */
-/* вторичный цвет фона background: #F5F4FA;
+/* вторинний колір фона background: #F5F4FA;
  */ ;
